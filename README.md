@@ -2,9 +2,13 @@ RealTime
 ========
 
 // Ultrasonic Range Finder
+
 // Arduino & Processing Motion detection
+
 // This example is used as part of a class project using Processing and Arduino libraries
+
 // To run Processing video and frame-by-frame animations
+
 // Links to documentation and code examples for stand alone sketches included
 
 // Arduino sketch includes Arduino Ping))) sketch to read data inputs
@@ -35,10 +39,11 @@ byte server[] = { 127.0.0.1 }; // Your Broker IP Adress
 
 // Default port is 1883 
 // To help get around network restrictions, you may need broker set as port 80
-int port = 80; 
-
-char subscribedChannel[] = "TopicName"; // Topic to subscribe to
-char deviceName[] = "OutTopic"; // set a unique name for each device connected to the broker
+  
+  int port = 80; 
+  
+  char subscribedChannel[] = "TopicName"; // Topic to subscribe to
+  char deviceName[] = "OutTopic"; // set a unique name for each device connected to the broker
 
 
 
